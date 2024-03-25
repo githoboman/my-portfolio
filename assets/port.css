@@ -1,0 +1,45 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    display:grid;
+    place-content: center;
+}
+*{
+    font-family: "roboto", sanserif;
+}
+a{
+    color: azure;
+    background-color:  hsl(217, 54%, 11%);
+}
+.navy{
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    
+
+}
+.navy:hover {
+background-color: hsl(217, 54%, 11%);
+}
+#myhead{font-family: "roboto", sans-serif;
+    font-size: 5rem;
+    color: azure;
+
+}
+.image-div{
+display: block;
+display: grid;
+place-items: center;
+
+}
+
+img{
+width:350px;
+height:250px;
+border: 10px solid  hsl(217, 54%, 10%);
+    border-radius: 35px;
+
+}
