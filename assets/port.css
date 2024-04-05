@@ -58,7 +58,7 @@ a{
 
 
 }
-a:hover{
+ .navy a:hover{
     border-radius: 10px;
     padding: 5px;
     border-style:double;
@@ -122,25 +122,152 @@ display: grid;
 place-items: center;
 
 }
-.ABOUT{
-    text-justify:;
+.ABOUT{padding:5px;
     color: aquamarine;
     margin-top: 100px;
-    font-size: 30px;
+    margin-left:10px ;
+    font-size: 29px;
 
 }
 .ABOUT {
     color: aquamarine;
 }
 
+#workat{
+    display: grid;
+    place-items: center;
+
+
+}
+
+
+.work{background-color: ();
+    height: 95vh;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 7px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 26rem;
+    
+    
+    
+}
+.work h1{
+color:azure;
+margin-bottom: 20px;
+font-style:italic;
+font-size: 39px;
+font-weight: 1000;
+padding: 2rem;
+
+}
+.work p{
+color: rgba(5, 212, 248, 0.667);
+margin-right: 14px;
+font-size: 25px;
+
+}
+.work a {
+    color: rgb(51, 29, 218);
+    text-shadow: 0px 5px 5px rgba(111, 54, 54, 0.954);
+    font-size: x-large;
+    display: flex;
+    margin-left: 20px;
+}
+.work a:hover { background-color:rgb(0, 128, 255) ;
+
+}
+.resume h1{
+    color: aliceblue;
+    margin-top: 30px;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 900;
+    padding-left:4rem;
+
+}
+.resume h1:hover{
+    color: aquamarine;
+}
+.resume p{
+    color: rgb(8, 205, 227);
+    text-shadow: 0px 5px 5px rgba(54, 125, 212, 0.954);
+    font-size: 35px;
+
+    display: flex;
+    padding-left:3rem;
+    margin-top: 40px;
+    width:100%;
+white-space: 0;
+overflow: hidden;
+animation: 
+typing 5s steps(23),
+cursor .4s step-end infinite alternate;  
+animation-duration: 2s;  
+
+}
+@keyframes cursor{
+    50%{border-color: transparent}
+}
+@keyframes typing{
+    from{ width:0}
+}
+
+
 
 .form-div 
 
-{color: bisque;
+{color:antiquewhite;
     display: grid;
     place-items: center;
     margin-top: 100px;
+    font-size: 20px;
 
+}
+form h1{ color: rgb(248, 250, 250);
+    text-shadow: 0px 5px 5px rgba(54, 125, 212, 0.954);
+    font-size: 30px;
+    margin-top: 40px;
+white-space: 0;
+width: 100%;
+overflow: hidden;
+animation: 
+typing 5s steps(30),
+cursor .4s step-end infinite alternate;  
+animation-duration: 3s;  
+
+}
+@keyframes cursor{
+    50%{border-color: transparent}
+}
+@keyframes typing{
+    from{ width:0}
+}
+
+
+
+form div{
+    display: grid;
+    place-items: center;
+    margin-top: 40px;
+}
+form  button{
+    width: 110px;
+    height: 50px;
+    background-color:antiquewhite;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+form button:hover{
+    background-color: burlywood;
+}
+form button:active{
+    background-color: cyan;
 }
  footer{
    display: block;
@@ -148,6 +275,9 @@ place-items: center;
     display: grid;
     place-items: center;
     margin-top: 100px;
-
+    font-size: 20px;
+ }
+ footer:hover{
+      color: burlywood;
  }
 
